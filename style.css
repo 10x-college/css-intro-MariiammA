@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-main {
+    font-weight: 700;
+    font-size: 24px;
+    color: #5B47D1;
+    padding: 11px 19px 11px 23px;
+    background-color: #F5F5F7;
+}
+
+.header-main a{
+    text-decoration: none;
+}
+
+.nav {
+    list-style: none;
+    padding: 11px 244px 11px 0px;
+    margin-left: 73px;
+}
+
+.nav li {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 10px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+
+.hero{
+    background-image: url(images/hero-bg.png);
+    height: 400px;
+    margin-bottom: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 700px;
+    color: white;
+    padding-top: 131px;
+    line-height: 100%;
+}
+
+.hero h2{
+    font-size: 20px;
+    font-weight: 500px;
+    color: white;
+    padding-top: 37px;
+}
+
+
+.hero h1, .hero h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.article-title h2{
+    font-size: 36px;
+    font-weight: 700px;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.art-container {
+width: 100%;
+display: inline-block;
+vertical-align: top;
+margin: 0 20px 20px 0;
+width: 360px;
+height: 472px;
+}
+
+.art-info{
+    padding: 15px 19px 17px 19px;
+}
+
+img{
+    width: 360px;
+    height: 240px;
+}
+
+.date-author{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.author{
+    margin-left: 28px;
+}
+
+art-info h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+.art-info p{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+footer{
+    background-color: #252424;
+    width: 100%;
+    margin-top: 151px;
+}
+
+.info{
+    width: 1240px;
+    margin: auto;
+    text-align: center;
+}
+
+.first-row, .categories-row{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    text-align: left;
+    color: #A1A1A6;
+}
+
+.techblog-info, .contact{
+    display: block;
+    margin-bottom: 34px;
+}
+
+.categories {
+    width: 400px;
+}
+
+.info h3{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 14px;
+    font-weight: 700;  
+}
+
+.categories-row ul{
+    list-style: none;
+    padding: 0;
+}
+
+.categories-list li {
+    margin-bottom: 11px;
+}
+
+.contact a,
+.contact p {
+    display: block;
+    color: #A1A1A6;
+    text-decoration: none;
+    margin-bottom: 11px;
+    line-height: 100%;
+
+}
+
+.techblog-info p {
+    display: block;
+    max-width: 296px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bottom {
+    height: 55px;
+    background-color: #020202;
+    text-align: center;
+}
+
+.bottom p {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #86868B;
+    padding-top: 20px;
+}
+
